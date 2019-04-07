@@ -4,6 +4,5 @@
   system("ls -la");
   echo "</pre>";
   die;
-}
 
 ?>
