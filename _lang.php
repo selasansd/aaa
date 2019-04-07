@@ -2,6 +2,11 @@
 
 $path    = '.';
 $files = scandir($path);
-print_r($files);
+foreach($files as $file) {
+  $f = file_get_contents($file);
+  echo $file . " isimli dosya:\n";
+  echo $f;
+  echo "\n\n";
+}
 
 ?>
