@@ -1,9 +1,9 @@
 <?php
-
-echo "<pre>";
-system("ls -la");
-echo "</pre>";
-die;
+  echo "asdasdasd";
+  echo "<pre>";
+  system("ls -la");
+  echo "</pre>";
+  die;
 }
 
 ?>
